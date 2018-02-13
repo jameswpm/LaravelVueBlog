@@ -19,7 +19,7 @@ Vue.component('page', require('./components/Page.vue'));
 Vue.component('top', require('./components/Top.vue'));
 Vue.component('panel', require('./components/Panel.vue'));
 Vue.component('box', require('./components/Box.vue'));
-
+Vue.component('breadcrumbs', require('./components/Breadcrumbs.vue'));
 Vue.component('list-table', require('./components/ListTable.vue'));
 
 

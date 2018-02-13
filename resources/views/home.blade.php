@@ -3,6 +3,7 @@
 @section('content')
     <page size="10">
         <panel title="Dashboard">
+            <breadcrumbs v-bind:list="{{$listBreadcrumbs}}"></breadcrumbs>
             <div class="row">
                 <div class="col-md-4">
                     <box qtd="80" title="Articles" url="{{ route('articles.index') }}" color="orange" icon="ion ion-stats-bars"></box>
